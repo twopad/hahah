@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Basisstil */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+ul, ol {
+	margin-bottom: 20px;
+}
+
+li {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+form input, form textarea {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+	background-color: #444;
+}
